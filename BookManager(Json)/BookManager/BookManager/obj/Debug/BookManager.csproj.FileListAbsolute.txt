@@ -1,0 +1,67 @@
+c:\users\juvniattta\documents\visual studio 2015\Projects\BookManager\BookManager\bin\Debug\BookManager.exe.config
+c:\users\juvniattta\documents\visual studio 2015\Projects\BookManager\BookManager\bin\Debug\BookManager.exe
+c:\users\juvniattta\documents\visual studio 2015\Projects\BookManager\BookManager\bin\Debug\BookManager.pdb
+c:\users\juvniattta\documents\visual studio 2015\Projects\BookManager\BookManager\obj\Debug\BookManager.csprojResolveAssemblyReference.cache
+c:\users\juvniattta\documents\visual studio 2015\Projects\BookManager\BookManager\obj\Debug\BookManager.Form1.resources
+c:\users\juvniattta\documents\visual studio 2015\Projects\BookManager\BookManager\obj\Debug\BookManager.Form2.resources
+c:\users\juvniattta\documents\visual studio 2015\Projects\BookManager\BookManager\obj\Debug\BookManager.Form3.resources
+c:\users\juvniattta\documents\visual studio 2015\Projects\BookManager\BookManager\obj\Debug\BookManager.Properties.Resources.resources
+c:\users\juvniattta\documents\visual studio 2015\Projects\BookManager\BookManager\obj\Debug\BookManager.csproj.GenerateResource.Cache
+c:\users\juvniattta\documents\visual studio 2015\Projects\BookManager\BookManager\obj\Debug\BookManager.exe
+c:\users\juvniattta\documents\visual studio 2015\Projects\BookManager\BookManager\obj\Debug\BookManager.pdb
+F:\강의자료\source\이동준Ver\13장\BookManager\BookManager\bin\Debug\BookManager.exe.config
+F:\강의자료\source\이동준Ver\13장\BookManager\BookManager\bin\Debug\BookManager.exe
+F:\강의자료\source\이동준Ver\13장\BookManager\BookManager\bin\Debug\BookManager.pdb
+F:\강의자료\source\이동준Ver\13장\BookManager\BookManager\obj\Debug\BookManager.csprojAssemblyReference.cache
+F:\강의자료\source\이동준Ver\13장\BookManager\BookManager\obj\Debug\BookManager.Form1.resources
+F:\강의자료\source\이동준Ver\13장\BookManager\BookManager\obj\Debug\BookManager.Form2.resources
+F:\강의자료\source\이동준Ver\13장\BookManager\BookManager\obj\Debug\BookManager.Form3.resources
+F:\강의자료\source\이동준Ver\13장\BookManager\BookManager\obj\Debug\BookManager.Properties.Resources.resources
+F:\강의자료\source\이동준Ver\13장\BookManager\BookManager\obj\Debug\BookManager.csproj.GenerateResource.cache
+F:\강의자료\source\이동준Ver\13장\BookManager\BookManager\obj\Debug\BookManager.csproj.CoreCompileInputs.cache
+F:\강의자료\source\이동준Ver\13장\BookManager\BookManager\obj\Debug\BookManager.exe
+F:\강의자료\source\이동준Ver\13장\BookManager\BookManager\obj\Debug\BookManager.pdb
+D:\강의\c#\Json\BookManager\BookManager\obj\Debug\BookManager.csprojAssemblyReference.cache
+D:\강의\c#\Json\BookManager\BookManager\obj\Debug\BookManager.Form1.resources
+D:\강의\c#\Json\BookManager\BookManager\obj\Debug\BookManager.Form2.resources
+D:\강의\c#\Json\BookManager\BookManager\obj\Debug\BookManager.Form3.resources
+D:\강의\c#\Json\BookManager\BookManager\obj\Debug\BookManager.Properties.Resources.resources
+D:\강의\c#\Json\BookManager\BookManager\obj\Debug\BookManager.csproj.GenerateResource.cache
+D:\강의\c#\Json\BookManager\BookManager\obj\Debug\BookManager.exe
+D:\강의\c#\Json\BookManager\BookManager\obj\Debug\BookManager.pdb
+D:\강의\c#\Json\BookManager\BookManager\bin\Debug\BookManager.exe.config
+D:\강의\c#\Json\BookManager\BookManager\bin\Debug\BookManager.exe
+D:\강의\c#\Json\BookManager\BookManager\bin\Debug\BookManager.pdb
+D:\강의\c#\Json\BookManager\BookManager\bin\Debug\Newtonsoft.Json.dll
+D:\강의\c#\Json\BookManager\BookManager\bin\Debug\Newtonsoft.Json.xml
+D:\강의\c#\Json\BookManager\BookManager\obj\Debug\BookManager.csproj.CopyComplete
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\Json\BookManager\BookManager\bin\Debug\BookManager.exe.config
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\Json\BookManager\BookManager\bin\Debug\BookManager.exe
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\Json\BookManager\BookManager\bin\Debug\BookManager.pdb
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\Json\BookManager\BookManager\bin\Debug\Newtonsoft.Json.dll
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\Json\BookManager\BookManager\bin\Debug\Newtonsoft.Json.xml
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.csprojAssemblyReference.cache
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.Form1.resources
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.Form2.resources
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.Form3.resources
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.Properties.Resources.resources
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.csproj.GenerateResource.cache
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.csproj.CoreCompileInputs.cache
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.csproj.CopyComplete
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.exe
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.pdb
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\Json\BookManager\BookManager\bin\Debug\BookManager.exe.config
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\Json\BookManager\BookManager\bin\Debug\BookManager.exe
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\Json\BookManager\BookManager\bin\Debug\BookManager.pdb
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\Json\BookManager\BookManager\bin\Debug\Newtonsoft.Json.dll
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\Json\BookManager\BookManager\bin\Debug\Newtonsoft.Json.xml
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.Form1.resources
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.Form2.resources
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.Form3.resources
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.Properties.Resources.resources
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.csproj.CopyComplete
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.exe
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\Json\BookManager\BookManager\obj\Debug\BookManager.pdb
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\Json\BookManager\BookManager\bin\Debug\BookManager.exe.CodeAnalysisLog.xml
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\Json\BookManager\BookManager\bin\Debug\BookManager.exe.lastcodeanalysissucceeded

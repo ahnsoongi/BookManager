@@ -1,0 +1,44 @@
+C:\Users\KB\Desktop\20200416\BookManager_today\BookManager\bin\Debug\BookManager.exe.config
+C:\Users\KB\Desktop\20200416\BookManager_today\BookManager\bin\Debug\BookManager.exe
+C:\Users\KB\Desktop\20200416\BookManager_today\BookManager\bin\Debug\BookManager.pdb
+C:\Users\KB\Desktop\20200416\BookManager_today\BookManager\obj\Debug\BookManager.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20200416\BookManager_today\BookManager\obj\Debug\BookManager.Properties.Resources.resources
+C:\Users\KB\Desktop\20200416\BookManager_today\BookManager\obj\Debug\BookManager.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\20200416\BookManager_today\BookManager\obj\Debug\BookManager.exe
+C:\Users\KB\Desktop\20200416\BookManager_today\BookManager\obj\Debug\BookManager.pdb
+C:\Users\KB\Desktop\20200416\BookManager_today\BookManager\obj\Debug\BookManager.Form1.resources
+C:\Users\KB\Desktop\20200416\BookManager_today\BookManager\obj\Debug\BookManager.Form2.resources
+C:\Users\KB\Desktop\20200417\BookManager_today\BookManager\bin\Debug\BookManager.exe.config
+C:\Users\KB\Desktop\20200417\BookManager_today\BookManager\bin\Debug\BookManager.exe
+C:\Users\KB\Desktop\20200417\BookManager_today\BookManager\bin\Debug\BookManager.pdb
+C:\Users\KB\Desktop\20200417\BookManager_today\BookManager\obj\Debug\BookManager.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20200417\BookManager_today\BookManager\obj\Debug\BookManager.Form1.resources
+C:\Users\KB\Desktop\20200417\BookManager_today\BookManager\obj\Debug\BookManager.Form2.resources
+C:\Users\KB\Desktop\20200417\BookManager_today\BookManager\obj\Debug\BookManager.Properties.Resources.resources
+C:\Users\KB\Desktop\20200417\BookManager_today\BookManager\obj\Debug\BookManager.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\20200417\BookManager_today\BookManager\obj\Debug\BookManager.exe
+C:\Users\KB\Desktop\20200417\BookManager_today\BookManager\obj\Debug\BookManager.pdb
+C:\Users\KB\Desktop\20200417\BookManager_today\BookManager\obj\Debug\BookManager.Form3.resources
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\bin\Debug\BookManager.exe.config
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\bin\Debug\BookManager.exe
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\bin\Debug\BookManager.pdb
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\obj\Debug\BookManager.csprojAssemblyReference.cache
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\obj\Debug\BookManager.Form1.resources
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\obj\Debug\BookManager.Form2.resources
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\obj\Debug\BookManager.Form3.resources
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\obj\Debug\BookManager.Properties.Resources.resources
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\obj\Debug\BookManager.csproj.GenerateResource.cache
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\obj\Debug\BookManager.csproj.CoreCompileInputs.cache
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\obj\Debug\BookManager.exe
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\obj\Debug\BookManager.pdb
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\xml\BookManager\bin\Debug\BookManager.exe.config
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\xml\BookManager\bin\Debug\BookManager.exe
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\xml\BookManager\bin\Debug\BookManager.pdb
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\xml\BookManager\obj\Debug\BookManager.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\xml\BookManager\obj\Debug\BookManager.Form1.resources
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\xml\BookManager\obj\Debug\BookManager.Form2.resources
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\xml\BookManager\obj\Debug\BookManager.Form3.resources
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\xml\BookManager\obj\Debug\BookManager.Properties.Resources.resources
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\xml\BookManager\obj\Debug\BookManager.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\xml\BookManager\obj\Debug\BookManager.exe
+C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\xml\BookManager\obj\Debug\BookManager.pdb

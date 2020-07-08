@@ -1,0 +1,12 @@
+<books>
+<book>
+  <isbn>345345345</isbn>
+  <name>sdafasdf</name>
+  <publisher>asdfasdf</publisher>
+  <page>123123</page>
+  <borrowedAt></borrowedAt>
+  <isBorrowed>0</isBorrowed>
+  <userId>0</userId>
+  <userName></userName>
+</book>
+</books>

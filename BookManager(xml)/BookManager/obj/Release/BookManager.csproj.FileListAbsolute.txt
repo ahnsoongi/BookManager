@@ -1,0 +1,12 @@
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\bin\Release\BookManager.exe.config
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\bin\Release\BookManager.exe
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\bin\Release\BookManager.pdb
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\obj\Release\BookManager.csprojAssemblyReference.cache
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\obj\Release\BookManager.Form1.resources
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\obj\Release\BookManager.Form2.resources
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\obj\Release\BookManager.Form3.resources
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\obj\Release\BookManager.Properties.Resources.resources
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\obj\Release\BookManager.csproj.GenerateResource.cache
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\obj\Release\BookManager.csproj.CoreCompileInputs.cache
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\obj\Release\BookManager.exe
+F:\강의자료\source\이동준Ver\도서관리 및 주차관리\dataSource별로구분\도서관리\xml\BookManager\obj\Release\BookManager.pdb
