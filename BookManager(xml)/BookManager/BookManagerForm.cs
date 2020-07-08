@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BookManager
 {
-    public partial class Form2 : Form
+    public partial class BookManagerForm : Form
     {
-        public Form2()
+        public BookManagerForm()
         {
             InitializeComponent();
             Text = "도서 관리";

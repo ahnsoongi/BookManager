@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace BookManager
 {
-    public partial class Form3 : Form
+    public partial class UserManagerForm : Form
     {
         enum enumUser
         {
             UserId, UserName
         }
 
-        public Form3()
+        public UserManagerForm()
         {
             InitializeComponent();
             Text = "사용자관리";

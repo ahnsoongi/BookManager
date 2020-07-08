@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace BookManager
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
 
         enum enumBook
@@ -25,7 +25,7 @@ namespace BookManager
             UserId, UserName
         }
 
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
             Text = "도서관 관리";
@@ -252,7 +252,7 @@ namespace BookManager
         {
             try
             {
-                Form2 temp = new Form2();
+                BookManagerForm temp = new BookManagerForm();
                 temp.ShowDialog();
                 refreshStatus();
             }
@@ -270,7 +270,7 @@ namespace BookManager
         {
             try
             {
-                new Form3().ShowDialog();
+                new UserManagerForm().ShowDialog();
                 refreshStatus();
             }
             catch (IndexOutOfRangeException ie)

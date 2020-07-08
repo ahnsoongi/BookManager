@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace BookManager
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
             Text = "도서관 관리";
@@ -169,7 +169,7 @@ namespace BookManager
             try
             {
                 //new Form2().ShowDialog();
-                Form2 temp = new Form2();
+                BookManagerForm temp = new BookManagerForm();
                 temp.ShowDialog();
                 DataManager.Load();
                 dataGridView1.DataSource = null;
@@ -189,7 +189,7 @@ namespace BookManager
         {
             try
             {
-                new Form3().ShowDialog();
+                new UserManagerForm().ShowDialog();
                 DataManager.Load();
                 dataGridView1.DataSource = null;
                 dataGridView1.DataSource = DataManager.Books;

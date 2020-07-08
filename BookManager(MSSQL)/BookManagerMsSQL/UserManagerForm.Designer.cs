@@ -1,6 +1,6 @@
 ﻿namespace BookManager
 {
-    partial class Form3
+    partial class UserManagerForm
     {
         /// <summary>
         /// Required designer variable.
