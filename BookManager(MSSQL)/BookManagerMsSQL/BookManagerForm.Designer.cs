@@ -1,6 +1,6 @@
 ﻿namespace BookManager
 {
-    partial class BookManagerForm
+    partial class BookMangerForm
     {
         /// <summary>
         /// Required designer variable.
@@ -52,6 +52,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.White;
             this.groupBox1.Controls.Add(this.button_delete);
             this.groupBox1.Controls.Add(this.button_modify);
             this.groupBox1.Controls.Add(this.button_add);
@@ -67,42 +68,51 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(470, 172);
+            this.groupBox1.Size = new System.Drawing.Size(469, 172);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "도서 추가/수정/삭제";
             // 
             // button_delete
             // 
-            this.button_delete.Location = new System.Drawing.Point(196, 141);
+            this.button_delete.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.button_delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_delete.ForeColor = System.Drawing.SystemColors.Info;
+            this.button_delete.Location = new System.Drawing.Point(384, 132);
             this.button_delete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_delete.Name = "button_delete";
-            this.button_delete.Size = new System.Drawing.Size(66, 18);
+            this.button_delete.Size = new System.Drawing.Size(66, 27);
             this.button_delete.TabIndex = 10;
             this.button_delete.Text = "삭제";
-            this.button_delete.UseVisualStyleBackColor = true;
+            this.button_delete.UseVisualStyleBackColor = false;
             this.button_delete.Click += new System.EventHandler(this.button_delete_Click);
             // 
             // button_modify
             // 
-            this.button_modify.Location = new System.Drawing.Point(104, 141);
+            this.button_modify.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.button_modify.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_modify.ForeColor = System.Drawing.SystemColors.Info;
+            this.button_modify.Location = new System.Drawing.Point(200, 132);
             this.button_modify.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_modify.Name = "button_modify";
-            this.button_modify.Size = new System.Drawing.Size(66, 18);
+            this.button_modify.Size = new System.Drawing.Size(66, 27);
             this.button_modify.TabIndex = 9;
             this.button_modify.Text = "수정";
-            this.button_modify.UseVisualStyleBackColor = true;
+            this.button_modify.UseVisualStyleBackColor = false;
             this.button_modify.Click += new System.EventHandler(this.button_modify_Click);
             // 
             // button_add
             // 
-            this.button_add.Location = new System.Drawing.Point(11, 141);
+            this.button_add.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.button_add.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_add.ForeColor = System.Drawing.SystemColors.Info;
+            this.button_add.Location = new System.Drawing.Point(11, 132);
             this.button_add.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_add.Name = "button_add";
-            this.button_add.Size = new System.Drawing.Size(66, 18);
+            this.button_add.Size = new System.Drawing.Size(66, 27);
             this.button_add.TabIndex = 8;
             this.button_add.Text = "추가";
-            this.button_add.UseVisualStyleBackColor = true;
+            this.button_add.UseVisualStyleBackColor = false;
             this.button_add.Click += new System.EventHandler(this.button_add_Click);
             // 
             // textBox_page
@@ -175,12 +185,13 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.White;
             this.groupBox2.Controls.Add(this.dataGridView_book);
             this.groupBox2.Location = new System.Drawing.Point(11, 195);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(701, 278);
+            this.groupBox2.Size = new System.Drawing.Size(764, 339);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "도서 현황";
@@ -189,14 +200,16 @@
             // 
             this.dataGridView_book.AllowUserToAddRows = false;
             this.dataGridView_book.AllowUserToDeleteRows = false;
+            this.dataGridView_book.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView_book.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_book.GridColor = System.Drawing.Color.White;
             this.dataGridView_book.Location = new System.Drawing.Point(6, 20);
             this.dataGridView_book.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView_book.Name = "dataGridView_book";
             this.dataGridView_book.ReadOnly = true;
             this.dataGridView_book.RowHeadersWidth = 51;
             this.dataGridView_book.RowTemplate.Height = 27;
-            this.dataGridView_book.Size = new System.Drawing.Size(690, 242);
+            this.dataGridView_book.Size = new System.Drawing.Size(752, 315);
             this.dataGridView_book.TabIndex = 0;
             this.dataGridView_book.CurrentCellChanged += new System.EventHandler(this.dataGridView_book_CurrentCellChanged);
             // 
@@ -204,15 +217,17 @@
             // 
             this.bookBindingSource.DataSource = typeof(BookManager.Book);
             // 
-            // Form2
+            // BookMangerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(723, 483);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(988, 545);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "Form2";
+            this.Name = "BookMangerForm";
             this.Text = "Form2";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

@@ -11,13 +11,13 @@ using System.Windows.Forms;
 
 namespace BookManager
 {
-    public partial class BookManagerForm : Form
+    public partial class BookMangerForm : Form
     {
         enum enumBook
         {
             Isbn, Name, Publisher, Page, UserId, isBorrowed, BorrowedAt
         }
-        public BookManagerForm()
+        public BookMangerForm()
         {
             InitializeComponent();
             Text = "도서 관리";

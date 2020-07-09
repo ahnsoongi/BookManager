@@ -76,3 +76,16 @@ C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\MSSQL\2_DBHelper사용\
 C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\MSSQL\2_DBHelper사용\BookManagerMsSQL\obj\Debug\BookManager.exe
 C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\MSSQL\2_DBHelper사용\BookManagerMsSQL\obj\Debug\BookManager.pdb
 C:\Users\KB\Desktop\c#_winform\도서관리\도서관리\MSSQL\2_DBHelper사용\BookManagerMsSQL\obj\Debug\BookManager.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\도서관리 - 복사본\MSSQL\2_DBHelper사용\BookManagerMsSQL\obj\Debug\BookManager.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\도서관리 - 복사본\MSSQL\2_DBHelper사용\BookManagerMsSQL\obj\Debug\BookManager.BorrowedForm.resources
+C:\Users\KB\Desktop\도서관리 - 복사본\MSSQL\2_DBHelper사용\BookManagerMsSQL\obj\Debug\BookManager.HomeForm.resources
+C:\Users\KB\Desktop\도서관리 - 복사본\MSSQL\2_DBHelper사용\BookManagerMsSQL\obj\Debug\BookManager.NewForm.resources
+C:\Users\KB\Desktop\도서관리 - 복사본\MSSQL\2_DBHelper사용\BookManagerMsSQL\obj\Debug\BookManager.Properties.Resources.resources
+C:\Users\KB\Desktop\도서관리 - 복사본\MSSQL\2_DBHelper사용\BookManagerMsSQL\obj\Debug\BookManager.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\도서관리 - 복사본\MSSQL\2_DBHelper사용\BookManagerMsSQL\obj\Debug\BookManager.exe
+C:\Users\KB\Desktop\도서관리 - 복사본\MSSQL\2_DBHelper사용\BookManagerMsSQL\obj\Debug\BookManager.pdb
+C:\Users\KB\Desktop\도서관리 - 복사본\MSSQL\2_DBHelper사용\BookManagerMsSQL\bin\Debug\BookManager.exe.config
+C:\Users\KB\Desktop\도서관리 - 복사본\MSSQL\2_DBHelper사용\BookManagerMsSQL\bin\Debug\BookManager.exe
+C:\Users\KB\Desktop\도서관리 - 복사본\MSSQL\2_DBHelper사용\BookManagerMsSQL\bin\Debug\BookManager.pdb
+C:\Users\KB\Desktop\도서관리 - 복사본\MSSQL\2_DBHelper사용\BookManagerMsSQL\obj\Debug\BookManager.BookMangerForm.resources
+C:\Users\KB\Desktop\도서관리 - 복사본\MSSQL\2_DBHelper사용\BookManagerMsSQL\obj\Debug\BookManager.UserManagerForm.resources

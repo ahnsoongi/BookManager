@@ -62,7 +62,9 @@
             // 
             this.dataGridView_Users.AllowUserToAddRows = false;
             this.dataGridView_Users.AllowUserToDeleteRows = false;
+            this.dataGridView_Users.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView_Users.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_Users.GridColor = System.Drawing.Color.White;
             this.dataGridView_Users.Location = new System.Drawing.Point(6, 20);
             this.dataGridView_Users.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView_Users.Name = "dataGridView_Users";
@@ -93,33 +95,42 @@
             // 
             // button_Delete
             // 
+            this.button_Delete.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.button_Delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Delete.ForeColor = System.Drawing.SystemColors.Info;
             this.button_Delete.Location = new System.Drawing.Point(148, 168);
             this.button_Delete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Delete.Name = "button_Delete";
             this.button_Delete.Size = new System.Drawing.Size(66, 26);
             this.button_Delete.TabIndex = 6;
             this.button_Delete.Text = "삭제";
-            this.button_Delete.UseVisualStyleBackColor = true;
+            this.button_Delete.UseVisualStyleBackColor = false;
             // 
             // button_Modify
             // 
+            this.button_Modify.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.button_Modify.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Modify.ForeColor = System.Drawing.SystemColors.Info;
             this.button_Modify.Location = new System.Drawing.Point(76, 168);
             this.button_Modify.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Modify.Name = "button_Modify";
             this.button_Modify.Size = new System.Drawing.Size(66, 26);
             this.button_Modify.TabIndex = 5;
             this.button_Modify.Text = "수정";
-            this.button_Modify.UseVisualStyleBackColor = true;
+            this.button_Modify.UseVisualStyleBackColor = false;
             // 
             // button_Add
             // 
+            this.button_Add.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.button_Add.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Add.ForeColor = System.Drawing.SystemColors.Info;
             this.button_Add.Location = new System.Drawing.Point(4, 168);
             this.button_Add.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Add.Name = "button_Add";
             this.button_Add.Size = new System.Drawing.Size(66, 26);
             this.button_Add.TabIndex = 4;
             this.button_Add.Text = "추가";
-            this.button_Add.UseVisualStyleBackColor = true;
+            this.button_Add.UseVisualStyleBackColor = false;
             // 
             // textBox_Name
             // 
@@ -159,15 +170,17 @@
             // 
             this.userBindingSource.DataSource = typeof(BookManager.User);
             // 
-            // Form3
+            // UserManagerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(453, 601);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(988, 545);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "Form3";
+            this.Name = "UserManagerForm";
             this.Text = "Form3";
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Users)).EndInit();

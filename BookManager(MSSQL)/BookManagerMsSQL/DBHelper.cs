@@ -74,7 +74,7 @@ namespace BookManager
             cmd.Connection = conn;
             if (Id < 0)
             {
-                cmd.CommandText = "SELECT * FROM UserTable";
+                cmd.CommandText = "SELECT * FROM UserTable order by Id";
 
                 //DataAdapter와 DataSet으로 DB table 불러오기
                 //DataSet은 메모리상의 하나의 DB 객체이며 DataTable은 메모리상의 하나의 테이블 객체

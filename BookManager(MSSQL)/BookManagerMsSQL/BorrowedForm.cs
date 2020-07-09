@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient;
 using System.Drawing;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,8 +10,14 @@ using System.Windows.Forms;
 
 namespace BookManager
 {
-    public partial class MainForm : Form
+    public partial class BorrowedForm : Form
     {
+        public BorrowedForm()
+        {
+            InitializeComponent();
+            selectQuery_Book();
+            selectQuery_User();
+        }
 
         enum enumBook
         {
@@ -25,51 +29,8 @@ namespace BookManager
             UserId, UserName
         }
 
-        public MainForm()
-        {
-            InitializeComponent();
-            Text = "도서관 관리";
-            refreshStatus();
-        }
 
-        private void refreshStatus()
-        {
-            selectQuery_Book();
-            selectQuery_User();
-
-            //전체 도서 수
-            label_allBookCount.Text = DBHelper.dt_book.Rows.Count.ToString();
-            //사용자 수
-            label_allUserCount.Text = DBHelper.dt_user.Rows.Count.ToString();
-
-            int borrowCount = 0;
-
-            //대출중인 도서의 수
-            foreach (DataRow item in DBHelper.dt_book.Rows)
-            {
-                if (bool.Parse(item["isBorrowed"].ToString()))
-                    borrowCount++;
-            }
-            label_allBorrowedBook.Text = borrowCount.ToString();
-
-            //연체중인 도서의 수
-            borrowCount = 0;
-            foreach (DataRow item in DBHelper.dt_book.Rows)
-            {
-                if (bool.Parse(item["isBorrowed"].ToString()))
-                {
-                    DateTime oldDay = DateTime.Parse(item["BorrowedAt"].ToString());
-                    TimeSpan timeDiff = DateTime.Today - oldDay;
-                    int diffDays = timeDiff.Days;
-                    if (diffDays > 7)
-                    {
-                        borrowCount++;
-                    }
-                }
-            }
-            label_allDelayedBook.Text = borrowCount.ToString();
-        }
-        private void selectQuery_Book(string Isbn = "")
+        public void selectQuery_Book(string Isbn = "")
         {
             if (Isbn == "")
             {
@@ -85,7 +46,7 @@ namespace BookManager
             }
         }
 
-        private void selectQuery_User(int Id = -1)
+        public void selectQuery_User(int Id = -1)
         {
             if (Id < 0)
             {
@@ -120,7 +81,20 @@ namespace BookManager
 
         }
 
-        private void DataGridView_BookManager_CurrentCellChanged(object sender, EventArgs e)
+        private void dataGridView_UserManager_CurrentCellChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                var user = dataGridView_UserManager.CurrentRow;
+                textBox_id.Text = user.Cells[(int)enumUser.UserId].Value.ToString();
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+
+        private void dataGridView_BookManager_CurrentCellChanged(object sender, EventArgs e)
         {
             try
             {
@@ -134,18 +108,6 @@ namespace BookManager
             }
         }
 
-        private void dataGridView_UserManager_CurrentCellChanged(object sender, EventArgs e)
-        {
-            try
-            {
-                var user = dataGridView_UserManager.CurrentRow;
-                textBox_id.Text = user.Cells[(int)enumUser.UserId].Value.ToString();
-            }
-            catch (Exception)
-            {
-
-            }
-        }
         private void button_Borrow_Click(object sender, EventArgs e)
         {
             if (textBox_isbn.Text.Trim() == "")
@@ -188,8 +150,6 @@ namespace BookManager
                         updateQuery(userid, doBorrow);
 
                         MessageBox.Show("\"" + bookName + "\"이/가\"" + userName + "\"님께 대여되었습니다.");
-
-                        refreshStatus(); //대출 하고 나서 db table에 적혀 있는 값들을 다시 보여줌
                     }
                 }
                 catch (Exception)
@@ -197,6 +157,7 @@ namespace BookManager
                     MessageBox.Show("존재하지 않는 도서 또는 사용자입니다.");
                 }
             }
+            selectQuery_Book();
         }
 
         private void button_Return_Click(object sender, EventArgs e)
@@ -232,7 +193,6 @@ namespace BookManager
                         {
                             MessageBox.Show("\"" + bookName + "\"이/가 반납되었습니다.");
                         }
-                        refreshStatus();
                     }
                     else
                     {
@@ -245,44 +205,7 @@ namespace BookManager
                 }
 
             }
-
+            selectQuery_Book();
         }
-
-        private void 도서관리ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                BookManagerForm temp = new BookManagerForm();
-                temp.ShowDialog();
-                refreshStatus();
-            }
-            catch (IndexOutOfRangeException ie)
-            {
-
-            }
-            catch (Exception ex)
-            {
-
-            }
-        }
-
-        private void 사용자관리ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                new UserManagerForm().ShowDialog();
-                refreshStatus();
-            }
-            catch (IndexOutOfRangeException ie)
-            {
-
-            }
-            catch (Exception ex)
-            {
-
-            }
-
-        }
-
     }
 }
